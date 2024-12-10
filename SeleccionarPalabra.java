@@ -5,7 +5,7 @@ public class SeleccionarPalabra {
 
     public static String seleccionarPalabra() {
         Random random = new Random();
-        int indice = random.nextInt(PALABRAS);
-        return PALABRAS;
+        int indice = random.nextInt(PALABRAS.length);
+        return PALABRAS[indice];
     }
 }
