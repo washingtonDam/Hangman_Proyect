@@ -12,7 +12,7 @@ public class AdivinarLetra {
             if (letrasUsadas.indexOf(letra) >= 0) {
                 System.out.println("Ya has usado esa letra. Intenta otra.");
             } else {
-                return true;
+                return letra;
             }
         }
         return letra;
