@@ -1,8 +1,8 @@
 
 public class JuegoCompletado {
     public static boolean juegoCompletado(String palabra, String letrasAdivinadas) {
-        for (char letra : letrasAdivinadas.toCharArray()) {
-            if (palabra.indexOf(letra) == -1) {
+        for (char letra : palabra.toCharArray()) {
+            if (adivinarLetra.indexOf(letra) == -1) {
                 return false;
             }
         }
