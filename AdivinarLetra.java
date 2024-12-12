@@ -15,6 +15,5 @@ public class AdivinarLetra {
                 return letra;
             }
         }
-        return letra;
     }
 }
